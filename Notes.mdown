@@ -1,0 +1,29 @@
+Make unique sudoku puzzles
+
+Plan:
+0. clone puzzle in solve to not modify original puzzle
+1. solve an empty puzzle with random solveArrays at each iteration
+2. remove random element from fully solved puzzle 
+3. solve new puzzle a bunch of times with random solveArrays and compare if they're the same
+4. if new puzzle is unique, then keep going and repeat from (2)
+5. if new puzzle is not unique, put element back and back to (2)
+6. keep going till all possible elements have been removed
+
+Pseudocode:
+function clonePuzzle(puzz)
+function emptyPuzzleGenerator()
+function emptyCellCoordinates(puzzle) 
+function shuffleArray(arr)
+function randomArrayGen()
+function isUnique(puzz)
+function uniquePuzzleGen()
+
+function solve(randomize, solveArray, _puzz){
+	puzz = clonePuzzle(_puzz)
+	...
+	if(randomize)
+		solveArray = randomArrayGen()
+	...
+}
+
+guided test suite or series of instructions
