@@ -3,4 +3,5 @@ A well-defined, sudoku puzzle generator that generates unique puzzles with the m
 
 ### Instructions
 Open uniqueSudokuGenerator_test.html
+
 Runtime approx. 2-20 seconds
